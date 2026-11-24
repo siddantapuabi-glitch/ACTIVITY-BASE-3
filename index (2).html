@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody - Music Streaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo"><span class="logo-icon">♫</span><h2>Melody</h2></div>
+            <div class="menu">
+                <p class="menu-heading">MENU</p>
+                <a href="#home" class="menu-item active">⌂ &nbsp; Home</a>
+                <a href="#popular" class="menu-item">⌕ &nbsp; Discover</a>
+                <a href="#albums" class="menu-item">♫ &nbsp; Albums</a>
+                <a href="#artists" class="menu-item">♬ &nbsp; Artists</a>
+            </div>
+            <div class="menu library">
+                <p class="menu-heading">YOUR LIBRARY</p>
+                <a href="#popular" class="menu-item">♡ &nbsp; Favourite Songs</a>
+                <a href="#playlists" class="menu-item">▤ &nbsp; Playlists</a>
+                <a href="#recent" class="menu-item">◷ &nbsp; Recently Played</a>
+            </div>
+            <div class="sidebar-bottom">
+                <div class="upgrade-box">
+                    <h3>Go Premium</h3>
+                    <p>Enjoy unlimited music without interruptions.</p>
+                    <button type="button">Upgrade Now</button>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content" id="home">
+            <header class="topbar">
+                <div class="search-box"><span>⌕</span><input type="search" placeholder="Search songs, artists, albums..."></div>
+                <div class="profile">
+                    <span class="notification">♢</span>
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100" alt="Profile picture">
+                    <span>Abishek</span>
+                </div>
+            </header>
+
+            <section class="hero">
+                <div class="hero-content">
+                    <span class="tag">FEATURED PLAYLIST</span>
+                    <h1>Feel the<br>Music.</h1>
+                    <p>Discover your favourite music, explore new artists and enjoy every beat.</p>
+                    <div class="hero-buttons">
+                        <a href="#popular" class="primary-btn">▶ Play Now</a>
+                        <a href="#playlists" class="secondary-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=900" alt="Live music concert">
+                </div>
+            </section>
+
+            <section class="section" id="artists">
+                <div class="section-header"><h2>Popular Artists</h2><a href="#artists">View All →</a></div>
+                <div class="artist-grid">
+                    <div class="artist-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300" alt="Artist portrait"><h3>Arijit Singh</h3><p>Artist</p></div>
+                    <div class="artist-card"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300" alt="Artist portrait"><h3>Shreya Ghoshal</h3><p>Artist</p></div>
+                    <div class="artist-card"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300" alt="Artist portrait"><h3>Sid Sriram</h3><p>Artist</p></div>
+                    <div class="artist-card"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300" alt="Artist portrait"><h3>Neha Kakkar</h3><p>Artist</p></div>
+                    <div class="artist-card"><img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?w=300" alt="Artist portrait"><h3>Justin Bieber</h3><p>Artist</p></div>
+                </div>
+            </section>
+
+            <section class="section" id="albums">
+                <div class="section-header"><h2>Featured Albums</h2><a href="#albums">View All →</a></div>
+                <div class="album-grid">
+                    <div class="album-card"><img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500" alt="Music studio album artwork"><h3>Midnight Vibes</h3><p>Various Artists</p></div>
+                    <div class="album-card"><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500" alt="Concert album artwork"><h3>Live Forever</h3><p>Rock Collection</p></div>
+                    <div class="album-card"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500" alt="Night sky album artwork"><h3>Dreams</h3><p>Chill Music</p></div>
+                    <div class="album-card"><img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500" alt="Neon concert album artwork"><h3>Neon Nights</h3><p>Electronic Hits</p></div>
+                </div>
+            </section>
+
+            <section class="section" id="playlists">
+                <div class="section-header"><h2>Your Playlists</h2><a href="#playlists">View All →</a></div>
+                <div class="playlist-grid">
+                    <div class="playlist-card purple"><div class="playlist-icon">♡</div><div><h3>My Favorites</h3><p>32 Songs</p></div></div>
+                    <div class="playlist-card blue"><div class="playlist-icon">☾</div><div><h3>Chill Vibes</h3><p>24 Songs</p></div></div>
+                    <div class="playlist-card orange"><div class="playlist-icon">⚡</div><div><h3>Workout Mix</h3><p>18 Songs</p></div></div>
+                    <div class="playlist-card pink"><div class="playlist-icon">♫</div><div><h3>Romantic Hits</h3><p>40 Songs</p></div></div>
+                </div>
+            </section>
+
+            <section class="section" id="recent">
+                <div class="section-header"><h2>Recently Played</h2><a href="#recent">View All →</a></div>
+                <div class="song-list">
+                    <div class="song-row"><span class="song-number">01</span><img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=100" alt="Song cover"><div class="song-info"><h4>Perfect</h4><p>Ed Sheeran</p></div><span class="song-album">Divide</span><span class="song-time">4:23</span><button class="play-small" type="button" aria-label="Play Perfect">▶</button></div>
+                    <div class="song-row"><span class="song-number">02</span><img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100" alt="Song cover"><div class="song-info"><h4>Night Changes</h4><p>One Direction</p></div><span class="song-album">Four</span><span class="song-time">3:46</span><button class="play-small" type="button" aria-label="Play Night Changes">▶</button></div>
+                    <div class="song-row"><span class="song-number">03</span><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=100" alt="Song cover"><div class="song-info"><h4>Until I Found You</h4><p>Stephen Sanchez</p></div><span class="song-album">Easy on My Eyes</span><span class="song-time">2:57</span><button class="play-small" type="button" aria-label="Play Until I Found You">▶</button></div>
+                </div>
+            </section>
+
+            <section class="section" id="popular">
+                <div class="section-header"><h2>Popular Tracks</h2><a href="#popular">View All →</a></div>
+                <div class="song-list">
+                    <div class="song-row"><span class="song-number">01</span><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=100" alt="Song cover"><div class="song-info"><h4>Shape of You</h4><p>Ed Sheeran</p></div><span class="song-album">Divide</span><span class="song-time">3:53</span><button class="play-small" type="button" aria-label="Play Shape of You">▶</button></div>
+                    <div class="song-row"><span class="song-number">02</span><img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100" alt="Song cover"><div class="song-info"><h4>Blinding Lights</h4><p>The Weeknd</p></div><span class="song-album">After Hours</span><span class="song-time">3:20</span><button class="play-small" type="button" aria-label="Play Blinding Lights">▶</button></div>
+                    <div class="song-row"><span class="song-number">03</span><img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=100" alt="Song cover"><div class="song-info"><h4>Levitating</h4><p>Dua Lipa</p></div><span class="song-album">Future Nostalgia</span><span class="song-time">3:23</span><button class="play-small" type="button" aria-label="Play Levitating">▶</button></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="music-player">
+        <div class="now-playing">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=150" alt="Currently playing cover">
+            <div><h4>Perfect</h4><p>Ed Sheeran</p></div>
+            <span class="heart">♡</span>
+        </div>
+        <div class="player-controls">
+            <div class="control-buttons">
+                <button type="button" title="Shuffle">⤨</button>
+                <button type="button" title="Previous">◀◀</button>
+                <button class="main-play" type="button" title="Play">▶</button>
+                <button type="button" title="Next">▶▶</button>
+                <button type="button" title="Repeat">↻</button>
+            </div>
+            <div class="progress-area"><span>0:00</span><div class="progress-bar"><div class="progress"></div></div><span>4:23</span></div>
+            <audio controls preload="none">
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+        </div>
+        <div class="extra-controls"><span>♫</span><span>▣</span><span>🔊</span></div>
+    </footer>
+</body>
+</html>
